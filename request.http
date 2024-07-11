@@ -1,0 +1,37 @@
+GET http://localhost:2000/products
+
+###
+POST http://localhost:2000/products
+Content-Type: application/json
+
+{
+    "name": "Pc gamingg",
+    "price": 24000000,
+    "description": "RTX 3060 Ti",
+    "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/12/10765b999c-b688-44cb-88a6-9fa0fd7dc198.jpg"
+}
+
+###
+DELETE  http://localhost:2000/products/5
+
+###
+PUT  http://localhost:2000/products/21
+Content-Type: application/json
+
+{
+    "name": "Acerrr Nitrooo",
+    "price": 16000000,
+    "description": "RTX 3060 Ti",
+    "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/12/10765b999c-b688-44cb-88a6-9fa0fd7dc198.jpg"
+}
+
+###
+PATCH  http://localhost:2000/products/12
+Content-Type: application/json
+
+{
+    "name": "Laptop gemingg",
+    "price": 16000000,
+    "description": "RTX 3060 Ti",
+    "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/12/10765b999c-b688-44cb-88a6-9fa0fd7dc198.jpg"
+}
